@@ -4,9 +4,101 @@
 
 html {
   height: 100%;
+  background-color: rgb(103, 166, 248);
 }
 
 body {
   margin: 0;
   min-height: 100%;
+  background-color: rgb(204, 230, 247);
+}
+
+header {
+  font-size: 2rem;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  color: rgb(11, 94, 119);
+  font-size: 30px;
+}
+
+.fkts {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  background-color: rgb(168, 210, 236);
+  list-style-type: none;
+}
+.busykit {
+  float: right;
+}
+.fkts li {
+  display: block;
+  text-align: center;
+  padding: 16px;
+}
+.fkts li a {
+  color: white;
+}
+
+.end {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: grey;
+  list-style-type: none;
+}
+
+.end li {
+  color: black;
+  text-align: center;
+  padding: 16px;
+  text-decoration: underline black;
+}
+
+p {
+  padding-left: 600px;
+}
+
+h3 {
+  padding-left: 600px;
+  color: rgb(11, 94, 119);
+}
+
+.kod {
+  width: 350px;
+
+  border: 1px solid gray;
+  margin: 0;
+  float: top left;
+  padding: 0;
+  align-content: center;
+}
+
+a {
+  text-decoration: none;
+}
+.kod h4 {
+  text-align: center;
+
+  padding-top: 0px;
+}
+
+.kod img {
+  max-width: 100%;
+  max-height: 100%;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.end li a {
+  color: black;
+}
+
+.finish {
+  background-color: grey;
+}
+
+.four li {
+  text-decoration: underline black;
 }
